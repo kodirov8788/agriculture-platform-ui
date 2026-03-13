@@ -1,53 +1,36 @@
-# 🌾 Smart Agriculture Portal — Next.js 16 & Tailwind v4
+# Agriculture Project
 
-An experimental, cutting-edge platform for agricultural management, exploring the latest features of **Next.js 16 (Canary)** and the revolutionary **Tailwind CSS v4** styling engine.
+An experimental frontend exploring the current Next.js and React ecosystem through an agriculture-oriented product concept.
 
-![Next.js](https://img.shields.io/badge/Next.js%2016-000000?style=flat&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React%2019-61DAFB?style=flat&logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20v4-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript%205.x-3178C6?style=flat&logo=typescript&logoColor=white)
+**Live demo:** https://agricalture-project.vercel.app
 
----
+## What This Project Shows
+- Willingness to work with modern framework releases early
+- Exploration of performance and DX changes in the newest React/Next stack
+- Clean front-end structuring around a domain-specific product concept
 
-## 🔬 Exploratory Features
+## Why This Stack / Tooling
+- **Next.js 16** was chosen to explore the newest App Router and framework behavior.
+- **React 19** supports testing current rendering and UI patterns on top of the latest runtime.
+- **Tailwind CSS v4** keeps styling close to the component layer while evaluating the new generation of Tailwind tooling.
+- **Lucide + clsx + tailwind-merge** help keep UI components predictable and maintainable.
 
-This project serves as a **Tier-1 Engineering Lab** to test the future of the web:
+## Stack
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS v4
 
-- **Next.js 16 Canary Integration**: Testing the latest App Router optimizations for high-performance data processing.
-- **Tailwind v4 Styling**: Implementing the new CSS-first configuration and zero-runtime performance improvements.
-- **React 19 Concurrent Mode**: Utilizing the latest streaming and hydration features for ultra-fast agricultural data visualization.
-- **Modern UI Patterns**: Leveraging `lucide-react` and `clsx` for a clean, accessible design system tailored for industrial use.
+## Key Features
+- Modern App Router foundation
+- Agriculture-focused UI concepting
+- Lightweight component styling with utility-driven patterns
 
----
-
-## 🏗️ Stack
-
-- **Framework**: Next.js 16 (App Router)
-- **Library**: React 19
-- **Style**: Tailwind CSS v4 (Alpha/Beta)
-- **Language**: TypeScript 5.7+
-- **Icons**: Lucide React
-- **Config**: PostCSS 8+ / ESLint 9+
-
----
-
-## ⚙️ Development
-
+## Getting Started
 ```bash
-npm install     # Install experimental packages
-npm run dev     # Launch local development
-npm run lint    # Strict code quality audit
+npm install
+npm run dev
 ```
 
----
-
-## 📈 Goals
-
-- **Performance Benchmarking**: Comparing Tailwind v4 render speeds vs v3.
-- **Data Visualization**: Real-time monitoring of crop data using server components.
-- **Schema Validation**: Type-safe agricultural metrics via TypeScript.
-
----
-
-## 📄 License
-MIT — Developed by [Kodirov Dev](https://github.com/kodirov8788)
+## Why It Matters For Hiring
+This repo is valuable because it shows current framework fluency and the ability to evaluate newer tooling deliberately, not just copy older boilerplates.
